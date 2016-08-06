@@ -1,0 +1,24 @@
+﻿@model Task1.Models.Task1ViewModel
+<h3>Please select file</h3>
+
+<form action="/Task1/Index" id="formPostFile" method="post" class="form-horizontal" enctype="multipart/form-data">
+    <label class="label">HTML file</label>
+    <div class="row">
+        <div class="col-sm-3">
+           
+            <input type="file" name="htmlFile" accept=".html, .htm" />
+        </div>
+        <div class="col-sm-3">
+            <button type="button" class="btn btn-default submitFile">Submit</button>
+        </div>      
+    </div>
+   
+</form>
+<br/>
+<div class="row">
+       @if (Model!=null )
+       {
+           <span>JSON output</span>           
+          <div class="jumbotron">@Model.JsonResult</div> 
+       }
+</div>
