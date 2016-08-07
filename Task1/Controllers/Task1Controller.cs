@@ -33,7 +33,6 @@ namespace Task1.Controllers
             string hotelRoomCategories = regexHelper.getValueByRegex(fileHTNMLContent, "hp_last_booking\">(.*?)<div class=\"hotel_quick_links_back_to_top hp_align_right");
             string hotelAlternative = regexHelper.getValueByRegex(fileHTNMLContent, "althotels-wrapper\"[^>]+>(.*?)</div>\\s*</div>");
             
-
             string jsonresult = regexHelper.getJsonResult(new HotelViewModel
             {
                 Name = hotelName,
