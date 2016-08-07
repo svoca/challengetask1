@@ -29,7 +29,7 @@ namespace Task1.helpers
             hotelModel.Address = model.Address;
             hotelModel.Stars = model.Stars;
             hotelModel.Review = model.Review;
-            hotelModel.Scrore = model.Scrore;
+            hotelModel.Score = model.Score;
             hotelModel.Description = model.Description;
             hotelModel.RoomCategories = model.RoomCategories;
             hotelModel.Alternative = model.Alternative;

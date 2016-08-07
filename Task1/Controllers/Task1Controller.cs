@@ -40,7 +40,7 @@ namespace Task1.Controllers
                 Address = hotelAddress,
                 Stars = hotelStars,
                 Review = hotelReview,
-                Scrore = hotelScore,
+                Score = hotelScore,
                 Description = hotelDescription,
                 RoomCategories = hotelRoomCategories,
                 Alternative = hotelAlternative
